@@ -1,0 +1,160 @@
+@import url(reset.css);
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+</style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*declarando as variaveis*/
+
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+
+    --fonte-principal: 'Inter', sans-serif;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal{
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_img{
+    margin: 2em;
+}
+
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: var(--branco-principal);
+    margin: 1em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container_aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container_titulo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container_imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container_caixa {
+    margin: 0 6em;
+}
+
+.secundario_imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario_botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container_descricao {
+    padding: 2em;
+}
+
+.dispositivos_listas{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos_titulos{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.lista_item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    margin: 2% 5% ;
+
+    
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.lista_link{
+    margin: 0 10px 0 10px;
+}
+.lista_link_link{
+    text-decoration: none;
+    color: var(--branco-principal);
+   
+}
+
+.rodape_texto{
+    margin-top: 1em;
+    color: var(--cinza-secundario);
+}
