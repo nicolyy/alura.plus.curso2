@@ -34,12 +34,18 @@ body{
     background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.container_img{
+    margin: 2em;
 }
 
 .container_botao{
@@ -123,4 +129,32 @@ body{
 .lista_item{
     font-size: 32px;
     color: var(--branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    margin: 2% 5% ;
+
+    
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.lista_link{
+    margin: 0 10px 0 10px;
+}
+.lista_link_link{
+    text-decoration: none;
+    color: var(--branco-principal);
+   
+}
+
+.rodape_texto{
+    margin-top: 1em;
+    color: var(--cinza-secundario);
 }
